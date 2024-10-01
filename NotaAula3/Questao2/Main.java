@@ -10,10 +10,10 @@ public class Main {
         Scanner scanner2 = new Scanner(System.in);
 
         System.out.println("Informações do Cachorro:");
-        System.out.println("Nome: " + c.getNome());
-        System.out.println("Raça: " + c.getRaca());
-        System.out.println("Locomoção: " + c.getLocomocao());
-        System.out.println("Late: " + c.getLate());
+        System.out.println("Nome: " + c.setNome());
+        System.out.println("Raça: " + c.setRaca());
+        System.out.println("Locomoção: " + c.setLocomocao());
+        System.out.println("Late: " + c.setLate());
 
         System.out.println("Informações da Gato:");
         System.out.println("Nome: " + g.getNome());
